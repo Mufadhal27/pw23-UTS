@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Kendaraan anda</title>
+    <link rel="stylesheet" href="styleUTS.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h3>Registrasi Kendaraan Anda</h3>
+        </section>
+    </header>
+    <main>
+        <section>
+            <fieldset style="max-width: 500px;">
+                <form action="">
+                <label for="status">Status </label>
+                    <input type="radio" name="status" id="Mahasiswa" value="Mahasiswa">
+                    <label for="Mahasiswa">Mahasiswa</label>
+
+                    <input type="radio" name="status" id="Dosen" value="DOsen">
+                    <label for="Dosen">Dosen</label>
+                    <br>
+
+                     <!--  -->
+                    <label for="nim/nidn">NIM/NIDN</label>
+                    <input type="text" id="NIM/NIDN">
+                    <br>
+
+                    <label for="nama_lengkap">Nama Lengkap :</label>
+                    <input type="text" id="Nama_Lengkap">
+                    <br>
+
+                <label for="prodi">Prodi :</label>
+                <select name="pilih_prodi">
+                    <option value="pilih_prodi">Pilih Prodi</option>
+                    <option value="teknik_informatika">Teknik Informatika</option>
+                    <option value="sitem_informasi">Sistem Informasi</option>
+                    <option value="bisnis_digital">Bisnis Digital</option>
+                </select>
+                    <br>
+
+                 <label for="jenis_kendaraan">Jenis Kendaraan :</label> 
+                 <input type="radio" name="jenis_kendaraan" id="motor" value="Motor">
+                 <label for="Motor">Motor</label>
+
+                 <input type="radio" name="jenis_kendaraan" id="mobil" value="Mobil">
+                 <label for="Mobil">Mobil</label>
+                 <br>
+
+                 <label for="nopol">NoPol</label>
+                    <input type="text" id="NoPol">
+                    <br>
+
+                 <label for="merk">Merk</label>
+                    <input type="text" id="Merk">
+                    <br>
+                
+                 <label for="upload_stnk">Upload STNK</label>
+                    <input type="file" id="Upload_STNK">
+                    <br>
+                
+                 <input type="submit" value="Daftar">
+                
+            </form>
+            
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>

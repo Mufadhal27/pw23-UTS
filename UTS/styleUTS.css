@@ -1,0 +1,26 @@
+* {
+    margin: 5px;
+    padding: 3px;
+}
+
+header {
+    margin: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+fieldset {
+    text-align: left;
+    padding: 5px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 10px;
+}
